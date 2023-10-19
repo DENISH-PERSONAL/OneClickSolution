@@ -47,30 +47,43 @@ const Contact = () => {
       </div>
 
       <div className="container mx-auto py-10 md:py-16 lg:py-20 px-5">
-        <div className="grid md:grid-cols-2">
+        <div className="grid md:grid-cols-2 gap-10">
           <div
-            className="p-10 col-span-1 rounded-xl"
+            className="p-10 col-span-1 rounded-xl my-5"
             style={{
               boxShadow:
-              "7px 7px 12px rgba(0, 0, 0, 0.4), -7px -7px 12px rgba(255, 255, 255, 0.9)",
+                "7px 7px 12px rgba(0, 0, 0, 0.4), -7px -7px 12px rgba(255, 255, 255, 0.9)",
             }}
-            >
-            <h1 className="mb-5 text-center text-primary font-bold text-4xl">Get In Touch</h1>
-            <p className="mb-4 text-center text-dark font-normal text-lg">Collaboratively promote client-focused convergence vis-a-vis customer directed alignments via standardized infrastructures.</p>
+          >
+            <h1 className="mb-5 text-center text-primary font-bold text-4xl">
+              Get In Touch
+            </h1>
+            <p className="mb-4 text-center text-dark font-normal text-lg">
+              Collaboratively promote client-focused convergence vis-a-vis
+              customer directed alignments via standardized infrastructures.
+            </p>
             <div className="mb-3">
-              <label className="w-full ">Name <span className="text-primary">*</span></label>
+              <label className="w-full ">
+                Name <span className="text-primary">*</span>
+              </label>
               <input className="inputs" type="text" />
             </div>
             <div className="mb-3">
-              <label className="w-full ">Email <span className="text-primary">*</span></label>
+              <label className="w-full ">
+                Email <span className="text-primary">*</span>
+              </label>
               <input className="inputs" type="text" />
             </div>
             <div className="mb-3">
-              <label className="w-full ">Phone<span className="text-primary">*</span></label>
+              <label className="w-full ">
+                Phone<span className="text-primary">*</span>
+              </label>
               <input className="inputs" type="text" />
             </div>
             <div className="mb-10">
-              <label className="w-full ">Massage<span className="text-primary">*</span></label>
+              <label className="w-full ">
+                Massage<span className="text-primary">*</span>
+              </label>
               <textarea className="inputs" rows={4} />
               {/* <input type="text" /> */}
             </div>
@@ -80,8 +93,17 @@ const Contact = () => {
               </button>
             </div>
           </div>
-          <div className="col-span-1">
-
+          <div className="col-span-1 my-5">
+            <div className="maps p-2 rounded" style={{boxShadow: "7px 7px 12px rgba(0, 0, 0, 0.4), -7px -7px 12px rgba(255, 255, 255, 0.9)"}}>
+              <iframe
+                className="w-full h-[702px]"
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5903.468774318553!2d72.85931901251791!3d21.233748615945714!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be04f2652963ac9%3A0x7d9787a5b5c4275d!2sSilver%20Business%20Point!5e0!3m2!1sen!2sus!4v1697700370292!5m2!1sen!2sus"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
+              {/* <iframe className="block w-full h-[702px] " src="//maps.app.goo.gl/o1ypk8wUviKfKSSNA"></iframe> */}
+            </div>
           </div>
         </div>
       </div>
