@@ -10,6 +10,7 @@ module.exports = {
         primaryDark: "#ff4348",
         dark: "#292930",
         light: "#999fae",
+        background: "#dce1e4",
       },
     },
   },

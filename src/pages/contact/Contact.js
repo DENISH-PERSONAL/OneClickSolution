@@ -72,13 +72,13 @@ const Contact = () => {
               <label className="labels">
                 Email <span className="text-primary">*</span>
               </label>
-              <input className="inputs" type="text" />
+              <input className="inputs" type="email" />
             </div>
             <div className="mb-3">
               <label className="labels">
                 Phone<span className="text-primary">*</span>
               </label>
-              <input className="inputs" type="text" />
+              <input className="inputs" type="number" />
             </div>
             <div className="mb-10">
               <label className="labels">
