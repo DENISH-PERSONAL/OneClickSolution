@@ -47,7 +47,7 @@ const Contact = () => {
       </div>
 
       <div className="container mx-auto py-10 md:py-16 lg:py-20 px-5">
-        <div className="grid grid-cols-2">
+        <div className="grid md:grid-cols-2">
           <div
             className="p-10 col-span-1 rounded-xl"
             style={{
