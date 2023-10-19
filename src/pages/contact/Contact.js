@@ -47,7 +47,7 @@ const Contact = () => {
       </div>
 
       <div className="container mx-auto py-10 md:py-16 lg:py-20 px-5">
-        <div className="grid md:grid-cols-2 gap-10">
+        <div className="grid md:grid-cols-2 gap-5 md:gap-10">
           <div
             className="p-10 col-span-1 rounded-xl my-5"
             style={{
@@ -58,30 +58,30 @@ const Contact = () => {
             <h1 className="mb-5 text-center text-primary font-bold text-4xl">
               Get In Touch
             </h1>
-            <p className="mb-4 text-center text-dark font-normal text-lg">
+            <p className="mb-4 text-center text-dark font-medium text-lg">
               Collaboratively promote client-focused convergence vis-a-vis
               customer directed alignments via standardized infrastructures.
             </p>
             <div className="mb-3">
-              <label className="w-full ">
+              <label className="labels">
                 Name <span className="text-primary">*</span>
               </label>
               <input className="inputs" type="text" />
             </div>
             <div className="mb-3">
-              <label className="w-full ">
+              <label className="labels">
                 Email <span className="text-primary">*</span>
               </label>
               <input className="inputs" type="text" />
             </div>
             <div className="mb-3">
-              <label className="w-full ">
+              <label className="labels">
                 Phone<span className="text-primary">*</span>
               </label>
               <input className="inputs" type="text" />
             </div>
             <div className="mb-10">
-              <label className="w-full ">
+              <label className="labels">
                 Massage<span className="text-primary">*</span>
               </label>
               <textarea className="inputs" rows={4} />
@@ -96,7 +96,7 @@ const Contact = () => {
           <div className="col-span-1 my-5">
             <div className="maps p-2 rounded" style={{boxShadow: "7px 7px 12px rgba(0, 0, 0, 0.4), -7px -7px 12px rgba(255, 255, 255, 0.9)"}}>
               <iframe
-                className="w-full h-[702px]"
+                className="w-full h-[300px] md:h-[702px]"
                 src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5903.468774318553!2d72.85931901251791!3d21.233748615945714!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be04f2652963ac9%3A0x7d9787a5b5c4275d!2sSilver%20Business%20Point!5e0!3m2!1sen!2sus!4v1697700370292!5m2!1sen!2sus"
                 allowfullscreen=""
                 loading="lazy"

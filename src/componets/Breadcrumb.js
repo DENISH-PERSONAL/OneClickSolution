@@ -15,7 +15,7 @@ const Breadcrumb = () => {
 
       return (
         <>
-          <div className="pb-[50px] pt-[100px] md:py-[150px] lg:pt-[200px] container px-5 mx-auto items-start flex justify-center flex-col">
+          <div className=" pb-[50px] pt-[100px] md:py-[150px] lg:pt-[200px] container px-5 mx-auto items-start flex justify-center flex-col">
             <div className="flex gap-3 ml-3 md:ml-10">
               <Link
                 className="bradcrumbs capitalize font-medium hover:text-primary duration-200 text-light"

@@ -168,7 +168,7 @@ body::-webkit-scrollbar-thumb:hover {
 .background-color {
   background: url("./images/background/bradcum.svg");
   height: auto;
-  width: 100%;
+  max-width: 100%;
   object-fit: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -207,6 +207,11 @@ body::-webkit-scrollbar-thumb:hover {
   border-radius: 100%;
 }
 
+.labels {
+  font-size: 18px;
+  font-weight: 600;
+}
+
 .inputs {
   box-shadow: inset -3px -3px 12px rgba(255, 255, 255, 0.9), inset 3px 3px 12px rgba(0, 0, 0, 0.4);
   background-color: var(--backgound);
@@ -215,4 +220,13 @@ body::-webkit-scrollbar-thumb:hover {
   padding: 7px 10px;
   margin-top: 5px;
   border-radius: 5px;
+}
+
+/* Footer */
+
+.footer-top {
+  box-shadow: inset -3px -3px 12px rgba(255, 255, 255, 0.9), inset 3px 3px 12px rgba(0, 0, 0, 0.4);
+  padding: 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }

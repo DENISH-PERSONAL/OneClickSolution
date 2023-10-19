@@ -7,7 +7,7 @@ const Header = () => {
   const [fix, setFix] = useState(false);
 
   function setFixed() {
-    if (window.scrollY >= 150) {
+    if (window.scrollY >= 200) {
       setFix(true);
     } else {
       setFix(false);
