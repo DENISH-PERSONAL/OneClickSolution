@@ -10,7 +10,7 @@ const Footer = () => {
             className="contact-icone"
             style={{
               boxShadow:
-                "inset -3px -3px 12px rgba(255, 255, 255, 0.9), inset 3px 3px 12px rgba(0, 0, 0, 0.4)",
+                "7px 7px 12px rgba(0, 0, 0, 0.4), -7px -7px 12px rgba(255, 255, 255, 0.9)",
             }}
           >
             <ContactCall />
@@ -30,7 +30,7 @@ const Footer = () => {
             className="contact-icone"
             style={{
               boxShadow:
-                "inset -3px -3px 12px rgba(255, 255, 255, 0.9), inset 3px 3px 12px rgba(0, 0, 0, 0.4)",
+                "7px 7px 12px rgba(0, 0, 0, 0.4), -7px -7px 12px rgba(255, 255, 255, 0.9)",
             }}
           >
             <ContactEmail />
@@ -46,8 +46,9 @@ const Footer = () => {
           </div>
         </div>
         <div className="flex justify-center items-center">
+        {/* <h4 className="text-lg font-bold">News Latters</h4> */}
           <div className="subscribe grid grid-cols-7">
-            <input type="email" className="py-3 px-3 outline-none rounded-s-md col-span-5 text-light bg-background" placeholder="Enter your email" style={{boxShadow: "inset -3px -3px 12px rgba(255, 255, 255, 0.9), inset 3px 3px 12px rgba(0, 0, 0, 0.4)"}} />
+            <input type="email" className="py-3 px-3 outline-none rounded-s-md col-span-5 text-dark font-medium bg-background" placeholder="Enter your email" style={{boxShadow: "inset -3px -3px 12px rgba(255, 255, 255, 0.9), inset 3px 3px 12px rgba(0, 0, 0, 0.4)"}} />
             <button className="py-3 px-6 col-span-2 bg-primary hover:bg-primaryDark text-white rounded-e-md ease-linear	duration-200 font-semibold">Subscribe</button>
           </div>
         </div>
