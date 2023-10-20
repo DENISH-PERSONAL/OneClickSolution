@@ -217,9 +217,15 @@ body::-webkit-scrollbar-thumb:hover {
   background-color: var(--backgound);
   outline: none;
   width: 100%;
-  padding: 7px 10px;
+  padding: 12px 20px;
   margin-top: 5px;
-  border-radius: 5px;
+  border-radius: 18px;
+}
+
+.inputs[type="number"]::-webkit-outer-spin-button,
+.inputs[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
 }
 
 /* Footer */

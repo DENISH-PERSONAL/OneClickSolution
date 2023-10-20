@@ -88,7 +88,7 @@ const Contact = () => {
               {/* <input type="text" /> */}
             </div>
             <div className="mt-3">
-              <button className="py-2 px-6 bg-primary hover:bg-primaryDark text-white rounded ease-linear	duration-200 font-semibold w-full" style={{boxShadow: "7px 7px 12px rgba(0, 0, 0, 0.4), -7px -7px 12px rgba(255, 255, 255, 0.9"}}>
+              <button className="py-3 px-6 bg-primary hover:bg-primaryDark text-white rounded-full ease-linear	duration-200 font-semibold w-full" style={{boxShadow: "7px 7px 12px rgba(0, 0, 0, 0.4), -7px -7px 12px rgba(255, 255, 255, 0.9"}}>
                 Submit
               </button>
             </div>
