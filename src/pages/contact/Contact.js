@@ -49,7 +49,7 @@ const Contact = () => {
       <div className="container mx-auto py-10 md:py-16 lg:py-20 px-5">
         <div className="grid md:grid-cols-2 gap-5 md:gap-10">
           <div
-            className="p-10 col-span-1 rounded-xl my-5"
+            className="p-5 md:p-10 col-span-1 rounded-xl my-5"
             style={{
               boxShadow:
                 "7px 7px 12px rgba(0, 0, 0, 0.4), -7px -7px 12px rgba(255, 255, 255, 0.9)",
@@ -88,7 +88,7 @@ const Contact = () => {
               {/* <input type="text" /> */}
             </div>
             <div className="mt-3">
-              <button className="py-2 px-6 bg-primary hover:bg-primaryDark text-white rounded ease-linear	duration-200 font-semibold w-full">
+              <button className="py-2 px-6 bg-primary hover:bg-primaryDark text-white rounded ease-linear	duration-200 font-semibold w-full" style={{boxShadow: "7px 7px 12px rgba(0, 0, 0, 0.4), -7px -7px 12px rgba(255, 255, 255, 0.9"}}>
                 Submit
               </button>
             </div>

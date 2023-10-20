@@ -1,10 +1,17 @@
 import React from "react";
 import { ContactCall, ContactEmail } from "./SvgIcon";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
     <div className="">
-      <div className="" style={{boxShadow: "inset -3px -3px 12px rgba(255, 255, 255, 0.9), inset 3px 3px 12px rgba(0, 0, 0, 0.4)"}}>
+      <div
+        className=""
+        style={{
+          boxShadow:
+            "inset -3px -3px 12px rgba(255, 255, 255, 0.9), inset 3px 3px 12px rgba(0, 0, 0, 0.4)",
+        }}
+      >
         <div className="footer-top container mx-auto">
           <div className="flex justify-start items-center gap-7 p-3">
             <div
@@ -65,7 +72,18 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className="py-20"></div>
+      <div className="py-10 bg-primary">
+        <div className="container mx-auto">
+          <div className="">
+            <div>
+              <Link class="logo cursor-pointer" to="/">
+                <h3 class="font-bold text-lg md:text-2xl text-white">LOGO</h3>
+              </Link>
+              <p className="font-normal md:text-xl text-white">Fusce varius, dolor tempor interdum tristique, dui urna bib endum magna, ut ullamcorper purus</p>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   );
 };
