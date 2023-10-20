@@ -225,7 +225,6 @@ body::-webkit-scrollbar-thumb:hover {
 /* Footer */
 
 .footer-top {
-  box-shadow: inset -3px -3px 12px rgba(255, 255, 255, 0.9), inset 3px 3px 12px rgba(0, 0, 0, 0.4);
   padding: 20px;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
