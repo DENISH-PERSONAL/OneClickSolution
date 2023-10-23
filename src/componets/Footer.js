@@ -74,8 +74,8 @@ const Footer = () => {
       </div>
       <div className="md:py-10 p-5 bg-primary border-b-2 border-background">
         <div className="container mx-auto">
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-5">
-            <div>
+          <div className="grid grid-cols-12 gap-5">
+            <div className="col-span-12 md:col-span-6">
               <Link class="logo cursor-pointer" to="/">
                 <h3 class="font-bold text-lg md:text-2xl text-white">LOGO</h3>
               </Link>
@@ -84,7 +84,7 @@ const Footer = () => {
                 endum magna, ut ullamcorper purus
               </p>
             </div>
-            <div className="flex md:justify-center mt-5 md:mt-0">
+            <div className="col-span-12 md:col-span-3 flex md:justify-center mt-5 md:mt-0">
               <div>
                 <h3 className="font-semibold text-xl text-white mb-5">
                   Our Services
@@ -99,7 +99,7 @@ const Footer = () => {
                 </ul>
               </div>
             </div>
-            <div className="flex md:justify-center mt-5 md:mt-0">
+            <div className="col-span-12 md:col-span-3 flex md:justify-center mt-5 md:mt-0">
               <div>
                 <h3 className="font-semibold text-xl text-white mb-5">
                   Support
