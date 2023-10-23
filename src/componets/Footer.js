@@ -72,7 +72,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className="py-10 bg-primary">
+      <div className="md:py-10 p-5 bg-primary border-b-2 border-background">
         <div className="container mx-auto">
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-5">
             <div>
@@ -84,43 +84,62 @@ const Footer = () => {
                 endum magna, ut ullamcorper purus
               </p>
             </div>
-            <div className="flex justify-center">
+            <div className="flex md:justify-center mt-5 md:mt-0">
               <div>
                 <h3 className="font-semibold text-xl text-white mb-5">
                   Our Services
                 </h3>
                 <ul className="[&>a]:block [&>a]:text-white [&>a]:mb-2 hover:[&>a]:translate-x-2 [&>a]:font-semibold [&>a]:duration-300">
-                    <Link>Web Development</Link>
-                    <Link>Mobile App Development</Link>
-                    <Link>UI/UX Design</Link>
-                    <Link>QA & Testing</Link>
-                    <Link>IT Consultancy</Link>
-                    <Link>Dedicated Team</Link>
+                  <Link>Web Development</Link>
+                  <Link>Mobile App Development</Link>
+                  <Link>UI/UX Design</Link>
+                  <Link>QA & Testing</Link>
+                  <Link>IT Consultancy</Link>
+                  <Link>Dedicated Team</Link>
                 </ul>
               </div>
             </div>
-            <div className="flex justify-center">
+            <div className="flex md:justify-center mt-5 md:mt-0">
               <div>
-                <h3 className="font-semibold text-xl text-white mb-5">Support</h3>
+                <h3 className="font-semibold text-xl text-white mb-5">
+                  Support
+                </h3>
                 <ul className="[&>a]:block [&>a]:text-white [&>a]:mb-2 hover:[&>a]:translate-x-2 [&>a]:font-semibold [&>a]:duration-300">
-                    <Link>Contact</Link>
-                    <Link>Privacy Policy</Link>
-                    <Link>Terms of Use</Link>
+                  <Link>Contact</Link>
+                  <Link>Privacy Policy</Link>
+                  <Link>Terms of Use</Link>
                 </ul>
               </div>
             </div>
-            {/* <div>
-                <h3 className="font-semibold text-xl text-white">Social Link</h3>
-                <div>
-                    <a href="#" ></a>
-                    <a href="#" ></a>
-                </div>
-            </div> */}
           </div>
         </div>
       </div>
-      <div>
-        last
+      <div className="p-5 bg-primary">
+        <div className="flex justify-between">
+          <div className="flex items-center text-white font-medium">
+            © 2023 Oneclick Solution. All Rights Reserved.
+          </div>
+          <div className="flex me-5 gap-5 items-center">
+            <div
+              className="flex items-center justify-center rounded-full h-12 w-12 cursor-pointer"
+              style={{
+                boxShadow:
+                  "rgba(0, 0, 0, 0.4) 7px 7px 12px, rgba(255, 255, 255, 0.9) -2px -2px 12px",
+              }}
+            >
+              <i class="fa-brands fa-linkedin-in text-xl text-white"></i>
+            </div>
+            <div
+              className="flex items-center justify-center rounded-full h-12 w-12 cursor-pointer"
+              style={{
+                boxShadow:
+                  "rgba(0, 0, 0, 0.4) 7px 7px 12px, rgba(255, 255, 255, 0.9) -2px -2px 12px",
+              }}
+            >
+              <i class="fa-brands fa-instagram text-xl text-white"></i>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );
