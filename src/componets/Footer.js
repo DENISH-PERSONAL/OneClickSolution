@@ -74,15 +74,53 @@ const Footer = () => {
       </div>
       <div className="py-10 bg-primary">
         <div className="container mx-auto">
-          <div className="">
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-5">
             <div>
               <Link class="logo cursor-pointer" to="/">
                 <h3 class="font-bold text-lg md:text-2xl text-white">LOGO</h3>
               </Link>
-              <p className="font-normal md:text-xl text-white">Fusce varius, dolor tempor interdum tristique, dui urna bib endum magna, ut ullamcorper purus</p>
+              <p className="font-normal md:text-xl text-white whitespace-normal mt-5">
+                Fusce varius, dolor tempor interdum tristique, dui urna bib
+                endum magna, ut ullamcorper purus
+              </p>
             </div>
+            <div className="flex justify-center">
+              <div>
+                <h3 className="font-semibold text-xl text-white mb-5">
+                  Our Services
+                </h3>
+                <ul className="[&>a]:block [&>a]:text-white [&>a]:mb-2 hover:[&>a]:translate-x-2 [&>a]:font-semibold [&>a]:duration-300">
+                    <Link>Web Development</Link>
+                    <Link>Mobile App Development</Link>
+                    <Link>UI/UX Design</Link>
+                    <Link>QA & Testing</Link>
+                    <Link>IT Consultancy</Link>
+                    <Link>Dedicated Team</Link>
+                </ul>
+              </div>
+            </div>
+            <div className="flex justify-center">
+              <div>
+                <h3 className="font-semibold text-xl text-white mb-5">Support</h3>
+                <ul className="[&>a]:block [&>a]:text-white [&>a]:mb-2 hover:[&>a]:translate-x-2 [&>a]:font-semibold [&>a]:duration-300">
+                    <Link>Contact</Link>
+                    <Link>Privacy Policy</Link>
+                    <Link>Terms of Use</Link>
+                </ul>
+              </div>
+            </div>
+            {/* <div>
+                <h3 className="font-semibold text-xl text-white">Social Link</h3>
+                <div>
+                    <a href="#" ></a>
+                    <a href="#" ></a>
+                </div>
+            </div> */}
           </div>
         </div>
+      </div>
+      <div>
+        last
       </div>
     </div>
   );
